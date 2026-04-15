@@ -1,0 +1,10 @@
+name: WolfPlugin
+version: 1.0-SNAPSHOT
+main: com.wolf.WolfPlugin
+api-version: "1.21"
+depend:
+  - Vault
+commands:
+  wolf:
+    description: オオカミ管理コマンド
+    usage: /wolf <summon|store>
