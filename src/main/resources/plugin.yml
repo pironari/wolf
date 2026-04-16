@@ -1,6 +1,6 @@
-name: WolfPlugin
+name: com.wolf.WolfPlugin
 version: 1.0-SNAPSHOT
-main: com.wolf.WolfPlugin
+main: com.wolf.com.wolf.WolfPlugin
 api-version: "1.21"
 depend:
   - Vault
