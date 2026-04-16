@@ -12,6 +12,7 @@ class WolfPlugin : JavaPlugin() {
             user = "root",
             password = ""
         )
+        getCommand("wolf")?.setExecutor(WolfCommand())
         logger.info("WolfPluginが起動しました")
     }
 
